@@ -63,23 +63,23 @@ Attack Awareness	Prevents plain-text leaks & basic brute force
 
 📁 Project Structure:
 
-secure-login-system/
-│
-├── app.py
-├── requirements.txt
-│
-├── static/
-│   └── style.css
-│
-├── templates/
-│   ├── login.html
-│   ├── register.html
-│   ├── otp.html
-│   └── dashboard.html
+     secure-login-system/
+     │
+     ├── app.py
+     ├── requirements.txt
+     │
+     ├── static/
+     │   └── style.css
+     │
+     ├── templates/
+     │   ├── login.html
+     │   ├── register.html
+     │   ├── otp.html
+     │   └── dashboard.html
 
 ▶️ How to Run the Project
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/secure-login-system.git
+git clone https://github.com/Narsimhakurvaa/secure-login-system.git
 cd secure-login-system
 
 2️⃣ Create Virtual Environment
@@ -97,9 +97,9 @@ python app.py
 http://127.0.0.1:5000
 
 
-🔎 Demo OTP Note (Important)
+Demo OTP Note (Important)
 
-⚠️ Demo Only Behavior
+Demo Only Behavior
 
 OTP is displayed on the UI for learning/demo purposes
 
@@ -113,7 +113,7 @@ Authenticator apps
 
 This decision is intentional for easier understanding during development.
 
-    What I Learned from This Project:
+What I Learned from This Project:
 
     How insecure login systems get compromised
 
@@ -127,7 +127,7 @@ This decision is intentional for easier understanding during development.
 
     Debugging real authentication issues (sessions, redirects, OTP)
 
-Future Improvements
+Future Improvements:
 
     Email-based OTP delivery
 
@@ -139,7 +139,7 @@ Future Improvements
 
     Deployment with HTTPS (cloud)
 
-⭐ Why This Project Matters
+⭐ Why This Project Matters:
 
     This project focuses on security mindset, not just functionality:
 
