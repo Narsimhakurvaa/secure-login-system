@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="card">
+  <h2>🛡️ Register</h2>
+
+  {% if error %}
+    <p class="error">{{ error }}</p>
+  {% endif %}
+
+  <form method="POST">
+    <input type="text" name="username" placeholder="Username" required>
+    <input type="password" name="password" placeholder="Password" required>
+
+    <p style="font-size:12px">
+      Password must contain:<br>
+      • 8+ characters<br>
+      • Uppercase & lowercase<br>
+      • One number
+    </p>
+
+    <button type="submit">Register</button>
+  </form>
+
+  <p style="text-align:center">
+    <a href="/">Back to login</a>
+  </p>
+</div>
+
+</body>
+</html>

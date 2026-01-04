@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OTP Verification</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="card">
+  <h2>🔑 OTP Verification</h2>
+
+  <!-- DEMO OTP DISPLAY -->
+  {% if demo_otp %}
+    <p style="color: green; font-size: 14px; text-align:center;">
+      ⚠️ Demo OTP: <strong>{{ demo_otp }}</strong>
+    </p>
+    <p style="font-size: 12px; text-align:center; color:#666;">
+      (Shown only for demo purposes)
+    </p>
+  {% endif %}
+
+  {% if error %}
+    <p class="error">{{ error }}</p>
+  {% endif %}
+
+  <form method="POST">
+    <input type="text" name="otp" placeholder="Enter OTP" required>
+    <button type="submit">Verify</button>
+  </form>
+
+  <p style="text-align:center;font-size:12px;">
+    OTP valid for 30 seconds
+  </p>
+</div>
+
+</body>
+</html>

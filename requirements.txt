@@ -1,0 +1,6 @@
+Flask
+bcrypt
+Flask-Limiter
+Flask-JWT-Extended
+Flask-WTF
+pyotp
